@@ -1,0 +1,94 @@
+################################################
+# Syntax Coloring Map For namino rosso / arancio
+################################################
+# Class
+################################################
+
+namino_rosso	    KEYWORD1
+namino_arancio	    KEYWORD1
+
+################################################
+# Methods and Functions 
+################################################
+
+begin	            KEYWORD2
+end	                KEYWORD2
+readAnalog          KEYWORD2
+readEncoder         KEYWORD2
+readDigIn           KEYWORD2
+readDigOut          KEYWORD2
+readEncoderSwitch   KEYWORD2
+readPt1000          KEYWORD2
+readPTC             KEYWORD2
+readTAMB            KEYWORD2
+writeAnalogInConf   KEYWORD2
+writeAnalogOut      KEYWORD2
+writeAnalogOutConf  KEYWORD2
+writeRegister       KEYWORD2
+writeDigOut         KEYWORD2
+writeRele           KEYWORD2
+writeStepNumber     KEYWORD2
+writeStepFreq       KEYWORD2
+writeStepRamp       KEYWORD2
+readAllRegister     KEYWORD2
+writeAllRegister    KEYWORD2
+testRegister        KEYWORD2
+printRegister       KEYWORD2
+
+################################################
+# Constants
+################################################
+
+NAMINO_ID           LITERAL1
+LIFE_TIME           LITERAL1
+NAMINO_STATUS       LITERAL1
+ANALOG_IN_CH01      LITERAL1
+ANALOG_IN_CH02      LITERAL1
+ANALOG_IN_CH03      LITERAL1
+ANALOG_IN_CH04      LITERAL1
+ANALOG_IN_CH05      LITERAL1
+ANALOG_IN_CH06      LITERAL1
+ANALOG_IN_CH07      LITERAL1
+ANALOG_IN_CH08      LITERAL1
+ANALOG_STATUS       LITERAL1
+TAMB                LITERAL1
+DIG_IN_1_16         LITERAL1
+ENCODER_COUNTER_H   LITERAL1
+ENCODER_COUNTER_L   LITERAL1
+ENCODER_SWITCH      LITERAL1
+RO_ENCODER_SET_H    LITERAL1
+RO_ENCODER_SET_L    LITERAL1
+RO_DIG_OUT_1_16     LITERAL1
+RO_RELE             LITERAL1
+RO_STEP_NUMBER      LITERAL1
+RO_STEP_FREQ        LITERAL1
+RO_STEP_RAMP        LITERAL1
+RO_STEP_COMMAND     LITERAL1
+RO_ANALOG_OUT       LITERAL1
+RO_ANALOG_IN_CH01_CONF   LITERAL1
+RO_ANALOG_IN_CH02_CONF   LITERAL1
+RO_ANALOG_IN_CH03_CONF   LITERAL1
+RO_ANALOG_IN_CH04_CONF   LITERAL1
+RO_ANALOG_IN_CH05_CONF   LITERAL1
+RO_ANALOG_IN_CH06_CONF   LITERAL1
+RO_ANALOG_IN_CH07_CONF   LITERAL1
+RO_ANALOG_IN_CH08_CONF   LITERAL1
+RO_ANALOG_OUT_CH01_CONF  LITERAL1
+ENCODER_SET_H            LITERAL1
+ENCODER_SET_L            LITERAL1
+DIG_OUT_1_16             LITERAL1
+RELE                     LITERAL1
+STEP_NUMBER              LITERAL1
+STEP_FREQ                LITERAL1
+STEP_RAMP                LITERAL1
+STEP_COMMAND             LITERAL1
+ANALOG_OUT               LITERAL1
+ANALOG_IN_CH01_CONF      LITERAL1
+ANALOG_IN_CH02_CONF      LITERAL1
+ANALOG_IN_CH03_CONF      LITERAL1
+ANALOG_IN_CH04_CONF      LITERAL1
+ANALOG_IN_CH05_CONF      LITERAL1
+ANALOG_IN_CH06_CONF      LITERAL1
+ANALOG_IN_CH07_CONF      LITERAL1
+ANALOG_IN_CH08_CONF      LITERAL1
+ANALOG_OUT_CH01_CONF     LITERAL1
