@@ -24,3 +24,7 @@ todo_include_todos = False
 linkcheck_timeout = 60
 linkcheck_ignore = [r'https://github.com/.+/.+/(compare|commits)/.+']
 
+import subprocess
+subprocess.call('make clean', shell=True)
+subprocess.call('cd ../../doxygen ; doxygen', shell=True)
+html_extra_path = ['../../doxygen/build/html']
