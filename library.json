@@ -1,0 +1,42 @@
+{
+	"name": "namino-industrial-boards",
+	"description": "Control Universal ±25 V 8-Input High Speed AFE industrial interface 24/16-bit ADC",
+	"keywords": "modbus",
+	"authors": [
+		{
+			"name": "Namino Team",
+            "email": "info@namino.cc",
+			"maintainer": true
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/namino-cc/Namino_Library.git"
+	},
+	"version": "1.0.18",
+	"license": "MIT",
+	"homepage": "https://namino.cc",
+	"export": {
+		"exclude": [
+			"docs/build/*",
+			"test/*",
+			"*.sublime-*"
+		]
+	},
+	"frameworks": [
+		"arduino"
+	],
+    "platforms": [
+		"*"
+	],
+	"dependencies": {
+	},
+	"build": {
+		"flags": "-Wall -Wextra",
+		"libLDFMode": "off"
+	},
+	"headers": [
+		"namino_rosso.h",
+        "namino_arancio.h"
+	]
+}
