@@ -6,7 +6,7 @@ needs_sphinx = '1.3'
 extensions = []
 source_suffix = ['.rst']
 
-project = u'namino_Library'
+project = u'Namino_Library'
 copyright = u'2023, Namino Team'
 author = u'Namino Team'
 
