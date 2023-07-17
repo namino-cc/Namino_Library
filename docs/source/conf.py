@@ -21,14 +21,9 @@ project = "Namino boards library"
 copyright = "2023, Namino Team"
 author = "Namino Team"
 
-
 needs_sphinx = '1.3'
 extensions = []
 source_suffix = ['.rst']
-
-project = u'Namino_Library'
-copyright = u'2023, Namino Team'
-author = u'Namino Team'
 
 master_doc = 'index'
 
